@@ -1,21 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { BasicTableComponent } from './basic-table/basic-table.component';
 import { NgxDatatableComponent } from './ngx-datatable/ngx-datatable.component';
-import { MaterialTableComponent } from './material-table/material-table.component';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'basic-tables',
+    redirectTo: 'ngx-datatable',
     pathMatch: 'full',
-  },
-  {
-    path: 'basic-tables',
-    component: BasicTableComponent,
-  },
-  {
-    path: 'material-tables',
-    component: MaterialTableComponent,
   },
   {
     path: 'ngx-datatable',

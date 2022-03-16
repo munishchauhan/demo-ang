@@ -12,6 +12,11 @@ const routes: Routes = [
         path: 'dashboard',
         loadChildren: () =>
           import('./dashboard/dashboard.module').then((m) => m.DashboardModule),
+      },
+      {
+        path: 'grid',
+        loadChildren: () =>
+          import('./tables/tables.module').then((m) => m.TablesModule),
       }
     ],
   },

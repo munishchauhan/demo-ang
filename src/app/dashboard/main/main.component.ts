@@ -18,7 +18,6 @@ import {
   ApexResponsive,
 } from 'ng-apexcharts';
 import { EChartOption } from 'echarts';
-import { AuthenticationService } from 'src/app/services/authentication.service';
 import { RepositoryService } from 'src/app/services/repository.service';
 export type chartOptions = {
   series: ApexAxisChartSeries;

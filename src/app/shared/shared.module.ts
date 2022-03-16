@@ -1,6 +1,5 @@
 import { DigitDecimaNumberDirective } from './../_directives/decimal-number.directivs';
 import { PermissionService } from './../services/permission.service';
-import { AuthenticationService } from './../services/authentication.service';
 import { ErrorHandlerService } from './../services/error-handler.service';
 import { RepositoryService } from './../services/repository.service';
 import { EnvironmentUrlService } from './../services/environment-url.service';
@@ -36,7 +35,6 @@ import { AuthGuard } from '../services/auth/auth.guard';
     EnvironmentUrlService,
     RepositoryService,
     ErrorHandlerService,
-    AuthenticationService,
     PermissionService,
     AuthGuard
   ]
